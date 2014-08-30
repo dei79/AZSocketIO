@@ -1,14 +1,15 @@
 Pod::Spec.new do |s|
-  s.name     = 'AZSocketIO'
+  s.name     = 'AZSocketIO-HandShakeData'
   s.version  = '0.0.6'
   s.license  = 'Apache 2.0'
   s.summary  = 'A socket.io client for objective-c. Cocoapods-friendly. Appledocs. Built of AFNetworking and SocketRocket. Websockets + XHR.'
   s.homepage = 'https://github.com/lukabernardi/AZSocketIO'
   s.authors  = {
     'Luca Bernardi' => 'luka.bernardi@gmail.com',
-    'Patrick Shields' => 'patrick.m.shields@gmail.com'
+    'Patrick Shields' => 'patrick.m.shields@gmail.com',
+    'Dirk Eisenberg' => 'dirk.eisenberg@gmail.com'
     }
-  s.source   = { :git => 'https://github.com/lukabernardi/AZSocketIO.git', :tag => 'v0.0.6' }
+  s.source   = { :git => 'https://github.com/dei79/AZSocketIO.git', :tag => 'v0.0.6-fix01' }
   s.source_files = 'AZSocketIO/*.{h,m}', 'AZSocketIO/Protocols/*.{h,m}', 'AZSocketIO/Transports/*.{h,m}'
   s.dependency 'SocketRocket', '~> 0.x'
   s.dependency 'AFNetworking', '~> 2.x'
